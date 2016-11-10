@@ -13,6 +13,7 @@ public class App {
 
         String url = args[0];
 
+        //"http://www.kimya.anadolu.edu.tr/OgretimElemanlari.aspx";
         System.out.println("Fetching: " + url);
 
         Document doc = Jsoup.connect(url).get();
